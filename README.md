@@ -5,19 +5,19 @@ The dataset contains company-level financial data including sales, profit, costs
 
 ## Project Structure
 financial-performance-analysis/
---> data/ 
-  - raw_data/ financial-data.csv
-  - cleaned_financial_data.csv
---> scripts/
-  - data_cleaning.py
---> notebooks/
-  - financial_eda.ipynb
---> sql/
-  - financial_analysis.sql
--->powerbi/
-  - screenshots/
-  - PowerBi_dashboard/
---> README.md
+├── data/
+│   ├── raw_data/
+│   │   └── financial_data.csv
+│   └── cleaned_financial_data.csv
+├── scripts/
+│   └── data_cleaning.py
+├── notebooks/
+│   └── financial_eda.ipynb
+├── sql/
+│   └── financial_analysis.sql
+├── powerbi/
+│   └── screenshots/
+└── README.md
 
 ## Data Cleaning & Processing
 - Preserved raw data for reproducibility
